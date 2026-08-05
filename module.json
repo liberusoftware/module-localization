@@ -1,9 +1,9 @@
 {
     "$schema": "https://schemas.liberu.dev/module/v1.json",
-    "name": "localization",
+    "name": "localization-core",
     "display_name": "Localization",
     "description": "Locale negotiation, user preference, translations, timezone context, and RTL hooks.",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "category": "foundation",
     "provider": "Liberu\\Foundation\\Localization\\LocalizationServiceProvider",
     "requires": {
@@ -15,7 +15,7 @@
         }
     },
     "suggests": {
-        "liberusoftware/localization-livewire": "^1.0",
+        "liberusoftware/localization-core-livewire": "^1.0",
         "liberusoftware/localization-mymemory": "^1.0"
     },
     "capabilities": [
